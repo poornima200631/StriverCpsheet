@@ -8,6 +8,7 @@ int main(){
    for(int i=0;i<s.size();++i){
     mp[s[i]]++;
    }
+   
    if(mp.size()%2==0){
     cout<<"CHAT WITH HER!" <<endl;
    }else{
@@ -15,3 +16,4 @@ int main(){
    }
   return 0;
 }
+
